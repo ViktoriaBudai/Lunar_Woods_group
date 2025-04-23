@@ -1,0 +1,15 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/LunarWoods.uss?fileID=7433441132597879392&amp;guid=b1f73cd3fe4d94348a07e6ddc8151528&amp;type=3#LunarWoods" />
+    <ui:VisualElement name="Background" style="flex-grow: 1; width: 100%; height: 100%; background-image: url(&apos;project://database/Assets/Own/UI/menuBackground.jpg?fileID=2800000&amp;guid=76179a60f1f86d747ba3e3fa60f3fecd&amp;type=3#menuBackground&apos;); -unity-slice-scale: 0; -unity-slice-left: 0; -unity-slice-top: 0; -unity-slice-right: 0; -unity-slice-bottom: 0; -unity-background-image-tint-color: rgb(212, 212, 201);">
+        <ui:VisualElement name="MenuHolder" style="flex-grow: 1; width: 100%; height: 100%; margin-top: 0; margin-right: auto; margin-bottom: 0; margin-left: auto;">
+            <ui:VisualElement name="Logo" style="flex-grow: 1; margin-top: 13%; margin-right: auto; margin-bottom: 0; margin-left: auto; height: auto; width: 45%; background-image: url(&apos;project://database/Assets/Own/UI/lunarwoodslogocopy.png?fileID=2800000&amp;guid=91fe12cd33d407e4b91d8bdad0f1b7a3&amp;type=3#lunarwoodslogocopy&apos;); -unity-background-scale-mode: scale-to-fit;" />
+            <ui:VisualElement name="ButtonsHolder" style="flex-grow: 1; height: 0;">
+                <ui:Button text="start" parse-escape-sequences="true" display-tooltip-when-elided="true" name="ButtonStart" class="button startButton" style="-unity-text-align: middle-center; flex-direction: column; -unity-font-style: normal;" />
+                <ui:Button text="exit game" parse-escape-sequences="true" display-tooltip-when-elided="true" name="ButtonQuit" class="button exitButton" style="-unity-text-align: middle-center; flex-direction: column;" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement name="TextContainer" style="flex-grow: 1; width: 100%; height: 200px; margin-bottom: 2%; margin-right: auto; margin-left: auto; align-items: center; margin-top: 0; align-self: center; justify-content: flex-end;">
+            <ui:Label tabindex="-1" text="SlayBlade Studio 2024" parse-escape-sequences="true" display-tooltip-when-elided="true" name="BottomText" style="-unity-font: url(&apos;project://database/Assets/Own/UI/LTRemark-Regular.otf?fileID=12800000&amp;guid=0090ada516125ee4b8653c0290e16bf7&amp;type=3#LTRemark-Regular&apos;); -unity-font-definition: initial; font-size: 26px; -unity-font-style: normal; color: rgb(198, 190, 173); text-shadow: 1px 1px 20px rgba(0, 0, 0, 0.49);" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
